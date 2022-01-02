@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FreeMote.FastLz</id>
+    <version>1.0.0</version>
+    <title>FreeMote.FastLz</title>
+    <authors>UlyssesWu; Ariya Hidaya</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/UlyssesWu/FreeMote.FastLz/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/UlyssesWu/FreeMote.FastLz</projectUrl>
+    <description>FastLZ .NET binding library.</description>
+    <copyright>Copyright (c) Ulysses &amp; Ariya Hidaya 2022</copyright>
+  </metadata>
+  <files>
+    <file src="lib\net472\FreeMote.FastLz.dll" target="lib\net472\FreeMote.FastLz.dll" />
+    <file src="lib\net5.0\FreeMote.FastLz.Core.dll" target="lib\net5.0\FreeMote.FastLz.Core.dll" />
+  </files>
+</package>
