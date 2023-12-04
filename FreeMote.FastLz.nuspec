@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>FreeMote.FastLz</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>FreeMote.FastLz</title>
     <authors>UlyssesWu; Ariya Hidaya</authors>
     <owners></owners>
@@ -10,10 +10,13 @@
     <licenseUrl>https://github.com/UlyssesWu/FreeMote.FastLz/blob/main/LICENSE</licenseUrl>
     <projectUrl>https://github.com/UlyssesWu/FreeMote.FastLz</projectUrl>
     <description>FastLZ .NET binding library.</description>
-    <copyright>Copyright (c) Ulysses &amp; Ariya Hidaya 2022</copyright>
+    <copyright>Copyright (c) Ulysses &amp; Ariya Hidaya 2022-2024</copyright>
   </metadata>
   <files>
     <file src="lib\net472\FreeMote.FastLz.dll" target="lib\net472\FreeMote.FastLz.dll" />
-    <file src="lib\net5.0\FreeMote.FastLz.Core.dll" target="lib\net5.0\FreeMote.FastLz.Core.dll" />
+    <file src="lib\net8.0\FreeMote.FastLz.Core.dll" target="lib\net8.0\FreeMote.FastLz.Core.dll" />
+    <file src="lib\net8.0\Ijwhost.dll" target="lib\net8.0\Ijwhost.dll" />
+    <file src="lib\net8.0\FreeMote.FastLz.Core.runtimeconfig.json" target="lib\net8.0\FreeMote.FastLz.Core.runtimeconfig.json" />
+    <file src="lib\net8.0\FreeMote.FastLz.Core.deps.json" target="lib\net8.0\FreeMote.FastLz.Core.deps.json" />
   </files>
 </package>
